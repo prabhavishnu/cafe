@@ -1,0 +1,45 @@
+{
+    "cof1": {
+        "name": "caramel",
+        "price": 4.25,
+        "type": "iced blended"
+    },
+    "cof2": {
+        "name": "coffee jelly",
+        "price": 4.50,
+        "type": "iced blended"
+    },
+    "cof3": {
+        "name": "cookies and cream",
+        "price": 5.00,
+        "type": "iced blended"
+    },
+    "cof4": {
+        "name": "coffee jelly",
+        "price": 4.50,
+        "type": "iced blended"
+    },
+    
+    "cof5": {
+        "name": "caramel",
+        "price": 4.25,
+        "type": "iced blended"
+    },
+    "cof6": {
+        "name": "coffee jelly",
+        "price": 4.50,
+        "type": "iced blended"
+    },
+    "cof7": {
+        "name": "cookies and cream",
+        "price": 5.00,
+        "type": "iced blended"
+    },
+    "cof8": {
+        "name": "coffee jelly",
+        "price": 4.50,
+        "type": "iced blended"
+    },
+
+
+}

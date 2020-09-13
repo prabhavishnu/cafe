@@ -1,0 +1,70 @@
+body{
+   background-image: url('./1216659.jpg') !important;
+   background-position: right;
+   background-size: cover;
+  
+
+}
+
+h4{
+   color:aquamarine ;
+  /* text-decoration: underline;*/
+  border-bottom: 1px coral solid;
+  width: max-content;
+
+}
+h2{
+   color:blanchedalmond;
+   text-align: center
+}
+p{
+   color:wheat
+}
+
+img{
+   width: 100px;
+   height: 100px;
+}
+#cbd{
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   transition-duration: 0.4s;
+}
+#cbd:hover{
+   opacity: 0.7;
+   }
+#od{
+  color:	black;
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 5px;
+  transition-duration: 0.35s;
+  border: 2px solid #008CBA;
+  border-radius:20px;
+  background-color: violet;
+}
+#od:hover{
+   background-color: burlywood;
+   color:blue;
+
+}
+#cart{
+   float: right;
+   color: burlywood;
+}
+.coffee{
+   color: darksalmon;
+   transition-duration: 0.3s;
+   margin-left: 10px;
+}
+.coffee:hover{
+   opacity: 0.6;
+   color: darkslategrey;
+}
+
+.selected{
+   color: white !c
+}

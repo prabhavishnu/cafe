@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Café de la Paix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        
+        <h2 class="heading" id="heading1">Cafe de la Paix    <i class="fa fa-shopping-cart" id="cart" aria-hidden="true"></i> </h2>
+
+    
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"><img src="./leaf.png" alt="leaf image"/></div>
+        </div>
+        <div class="row">
+            <div class="col-1"> </div>
+            <div class="col-5"></div>
+            <div class="col-6">
+                <h4 class="contents" id="contents1">Expresso</h4>
+                <div class="row">
+                    <div class="col-3">
+    
+                        <p> Americano</p>
+                        <p>Cappucino</p>
+                        <p>Double Expresso </p>
+                        <p>Latte</p>
+                        <p>Machiato</p>
+                        <p>Mint Chocolate</p>
+                        <p>Mocha</p>
+                        <p> White Mocha</p>
+    
+    
+                    </div>
+                    <div class="col-3"> </div>
+                    <div class="col-6">
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 3.00<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 3.00<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 3.50<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 4.20<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 4.50<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 5.25<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 4.50<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                        <p><i class="fa fa-usd" aria-hidden="true"></i> 5.00<img id="cbd" src="./leaf.png" alt="leaf image"/></p>
+                    </div>
+                </div>
+                <h4 class="contents" id="contents1">Ice Blended</h4>
+                <div class="row">
+                    <div class="col-3">
+    
+                        <p> Caramel</p>
+                        <p>Coffee Jelly</p>
+                        <p>Coockies And Cream</p>
+                        <p>Hazelnut Mocha</p>
+                        <p>Matcha Cream</p>
+                        <p>Mint Chocolate chip</p>
+                        <p>Strawberry Cream</p>
+                        <p>Vanilla Bean</p>
+                    </div>
+                    <div class="col-3"> </div>
+                    <div class="col-3">
+                        <p> 4.25 <i class="fa fa-coffee coffee"  id='cof1' aria-hidden="true" onclick="select('cof1')"></i></p>
+                        <p>4.50 <i class="fa fa-coffee coffee" id="cof2" aria-hidden="true" onclick="select('cof2')"></i></p>
+                        <p>5.00 <i class="fa fa-coffee coffee" id="cof3" aria-hidden="true" onclick="select('cof3')"></i></p>
+                        <p>4.50 <i class="fa fa-coffee coffee" id="cof4" aria-hidden="true" onclick="select('cof4')"></i></p>
+                        <p>6.00 <i class="fa fa-coffee coffee" id="cof5" aria-hidden="true" onclick="select(6.0)"></i></p>
+                        <p>6.00 <i class="fa fa-coffee coffee" id="cof6" aria-hidden="true" onclick="select(6.0)"></i></p>
+                        <p>5.50 <i class="fa fa-coffee coffee" id="cof7" aria-hidden="true" onclick="select(5.5)"></i></p>
+                        <p> 4.50 <i class="fa fa-coffee coffee" id="cof8" aria-hidden="true" onclick="select(4.5)"></i></i></p>
+                    </div>
+                </div>
+                <h4 class="contents" id="contents1">Teas</h4>
+                <div class="row">
+                    <div class="col-3">
+    
+                        <p> Earl grey</p>
+                        <p>English breakfast</p>
+                        <p>Green Tea</p>
+                        <p>Jasmine Tea</p>
+                    </div>
+                    <div class="col-3"> </div>
+                    <div class="col-3">
+                        <p> 3.75</p>
+                        <p>4.50</p>
+                        <p>4.50</p>
+                        <p>4.00</p>
+                    </div>
+                </div>
+                
+    
+            </div>
+            <div  style="width: 100%; margin: 4vw">
+                <center>
+                    <button class="btn btn-raised"  id="od" onclick="calcTotal()">Place Order</button>
+                </center>
+            </div>
+            <div style="background-color:aquamarine; opacity: 90%;width: 80%; justify-content: center; display:flex; margin: 2vw;">
+                <h3> <strong> Order Details </strong>
+                <br>
+                
+                <div class="row">
+                    <h3> <strong> Total Amount:</strong></h3>
+                    <h3 id="amt">0</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
